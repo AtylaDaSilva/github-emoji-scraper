@@ -1,0 +1,16 @@
+{
+  "name": "github-emoji-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Reads through the GitHub Emoji Cheat-Sheet (https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) and generates a JSON file containing each emoji's code and icon.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "clear",
+    "test": "node index.js"
+  },
+  "author": "AtylaDaSilva",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.9.0"
+  }
+}
